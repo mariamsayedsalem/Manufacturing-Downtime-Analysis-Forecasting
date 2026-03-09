@@ -4,7 +4,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-1.3.0+-blue.svg)](https://pandas.pydata.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24+-orange.svg)](https://scikit-learn.org/)
 [![Tableau](https://img.shields.io/badge/Tableau-Dashboard-yellow.svg)](https://www.tableau.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/mariamsayedsalem/Manufacturing-Downtime-Analysis-Forecasting/blob/main/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/mariamsayedsalem/Manufacturing-Downtime-Analysis-Forecasting/graphs/commit-activity)
 
 ## 📋 Project Overview
