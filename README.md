@@ -116,20 +116,6 @@ The analysis helps manufacturing managers to:
 
 ---
 
-## 📁 Repository Structure
-
-Manufacturing-Downtime-Analysis-Forecasting/
-│
-├── data/ # Dataset files
-├── notebooks/ # Jupyter notebooks
-├── src/ # Source code
-├── dashboard/ # Tableau dashboard files
-├── reports/ # Generated reports
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
----
-
 ## ⚙️ Installation
 
 ```bash
