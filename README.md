@@ -141,6 +141,7 @@ pip install -r requirements.txt
 
 # Run Jupyter notebooks
 jupyter notebook notebooks/
+```
 ---
 
 ## 📬 Contact
