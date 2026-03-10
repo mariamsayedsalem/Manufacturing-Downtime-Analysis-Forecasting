@@ -4,14 +4,41 @@
 [![Pandas](https://img.shields.io/badge/Pandas-1.3.0+-blue.svg)](https://pandas.pydata.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24+-orange.svg)](https://scikit-learn.org/)
 [![Tableau](https://img.shields.io/badge/Tableau-Dashboard-yellow.svg)](https://www.tableau.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/mariamsayedsalem/Manufacturing-Downtime-Analysis-Forecasting/blob/main/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/mariamsayedsalem/Manufacturing-Downtime-Analysis-Forecasting/graphs/commit-activity)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 📋 Project Overview
+---
+
+## 📋 Table of Contents
+- [Project Overview](#project-overview)
+- [Project Idea](#project-idea)
+- [Key Objectives](#key-objectives)
+- [Tools & Technologies](#tools--technologies)
+- [Dataset Description](#dataset-description)
+- [Project Workflow](#project-workflow)
+- [Project Timeline](#project-timeline-12-weeks)
+- [Project Insights](#project-insights)
+- [Team Members](#team-members)
+- [Roles & Responsibilities](#roles--responsibilities)
+- [KPIs](#kpis)
+- [Instructor](#instructor)
+- [Future Improvements](#future-improvements)
+- [Installation](#installation)
+- [Project Files](#project-files)
+- [Contact](#contact)
+
+---
+
+## 📖 Project Overview
 
 Manufacturing downtime is one of the main factors affecting production efficiency and operational costs. This project analyzes manufacturing line productivity data to identify downtime patterns, understand the main causes of operational interruptions, and forecast future downtime to improve production planning.
 
 Using data analysis and machine learning techniques, this project provides insights that help decision-makers reduce downtime and optimize manufacturing operations.
+
+---
+
+## 💡 Project Idea
+
+This project aims to analyze historical manufacturing data to identify the root causes of machine downtime, detect patterns across different shifts and machines, and build a forecasting model to predict future downtime. The final output includes actionable insights and an interactive dashboard to support data-driven decision-making in production planning and maintenance scheduling.
 
 ---
 
@@ -97,6 +124,49 @@ This dashboard helps decision-makers quickly identify operational issues.
 
 ---
 
+## 📅 Project Timeline (12 Weeks)
+
+| Phase | Duration | Focus | Key Tasks |
+|-------|----------|-------|-----------|
+| **Problem Definition** | Week 1 | Business Understanding & Objective Setting | • Understand production goals and KPIs<br>• Define key questions<br>• Define success metrics |
+| **Data Understanding & EDA** | Weeks 2-3 | Initial Exploration & Quality Check | • Load and inspect all four sheets<br>• Check for missing values, duplicates<br>• Summary statistics |
+| **Data Cleaning & Preparation** | Weeks 4-5 | Dataset Engineering | • Clean dataset fields and calculate batch duration<br>• Merge downtime data<br>• Create new features |
+| **Deep Analysis & Insights** | Weeks 6-7 | Exploratory Analysis & Pattern Detection | • Analyze downtime by operator, product, time<br>• Identify top downtime factors<br>• Visualize comparisons |
+| **Predictive Modeling** | Weeks 8-9 | Predictive Insights (Optional) | • Predict downtime likelihood or batch duration<br>• Use models like Random Forest<br>• Evaluate feature importance |
+| **Business Synthesis** | Week 10 | Translating Insights into Action | • Summarize key findings<br>• Identify training needs<br>• Recommend process improvements |
+| **Dashboard & Visualization** | Week 11 | Interactive Reporting | • Build an interactive dashboard<br>• Show downtime trends and operator performance<br>• Add filters |
+| **Final Presentation & Delivery** | Week 12 | Stakeholder Presentation | • Prepare a concise presentation<br>• Deliver final report and dashboard |
+
+> 📌 **Focus Area:** Manufacturing Line Productivity
+
+---
+
+## 📊 Visual Project Timeline
+
+```mermaid
+gantt
+    title Manufacturing Downtime Analysis Project Timeline
+    dateFormat  YYYY-MM-DD
+    section Phase 1
+    Problem Definition           :a1, 2026-03-01, 7d
+    section Phase 2
+    Data Understanding & EDA      :a2, after a1, 14d
+    section Phase 3
+    Data Cleaning & Preparation   :a3, after a2, 14d
+    section Phase 4
+    Deep Analysis & Insights      :a4, after a3, 14d
+    section Phase 5
+    Predictive Modeling           :a5, after a4, 14d
+    section Phase 6
+    Business Synthesis            :a6, after a5, 7d
+    section Phase 7
+    Dashboard & Visualization     :a7, after a6, 7d
+    section Phase 8
+    Final Presentation            :a8, after a7, 7d
+```
+
+---
+
 ## 💡 Project Insights
 
 The analysis helps manufacturing managers to:
@@ -108,11 +178,55 @@ The analysis helps manufacturing managers to:
 
 ---
 
+## 👥 Team Members
+
+1. **Malak Zein** – Team Leader  
+2. **Sara Akram Adel**  
+3. **Maryam Yahia Mohamed**  
+4. **Maryam Sayed Salem**  
+5. **Jasmin Wahid Mansour**  
+6. **Abdelrahman Ibrahim Mohamed**
+
+---
+
+## 📋 Roles & Responsibilities
+
+| Member | Responsibilities |
+|--------|------------------|
+| **Malak Zein** | • Overall project supervision and progress tracking<br>• Task distribution and team coordination<br>• Communication with the instructor and presenting periodic reports<br>• Reviewing final deliverables and ensuring quality |
+| **Maryam Sayed Salem** | • Data cleaning and preprocessing<br>• Building forecasting models (Machine Learning)<br>• Evaluating model performance |
+| **Sara Akram Adel** | • Exploratory Data Analysis (EDA)<br>• Creating charts and visualizations<br>• Detecting patterns in downtime periods |
+| **Maryam Yahia Mohamed** | • Defining success metrics (KPIs)<br>• Translating results into actionable recommendations<br>• Preparing reports and presentations |
+| **Jasmin Wahid Mansour** | • Building interactive dashboards<br>• Adding filters and interactive elements<br>• Ensuring the dashboard answers project questions |
+| **Abdelrahman Ibrahim Mohamed** | • Code review and quality assurance<br>• Documenting project steps and methodology<br>• Updating project files on GitHub |
+
+---
+
+## 📊 KPIs (Key Performance Indicators)
+
+> Metrics used to measure project success:
+
+- ✅ **Model Accuracy**: RMSE or MAE for forecasting model
+- ✅ **User Adoption Rate**: Number of dashboard views / stakeholders reached
+- ✅ **Data Quality**: Percentage of missing data handled
+- ✅ **Response Time**: Time taken to generate insights after query
+- ✅ **Reduction in Unplanned Downtime** (if applied in real-time)
+
+---
+
+## 🧑‍🏫 Instructor
+
+**Under the supervision of:**  
+**Dr. Dina Ezzat**
+
+---
+
 ## 🚀 Future Improvements
 
-- [ ] Apply advanced forecasting models
+- [ ] Apply advanced forecasting models (LSTM, Prophet)
 - [ ] Implement real-time monitoring dashboards
 - [ ] Integrate predictive maintenance models
+- [ ] Add more data sources for comprehensive analysis
 
 ---
 
@@ -122,12 +236,23 @@ The analysis helps manufacturing managers to:
 # Clone the repository
 git clone https://github.com/mariamsayedsalem/Manufacturing-Downtime-Analysis-Forecasting.git
 
+# Navigate to project directory
+cd Manufacturing-Downtime-Analysis-Forecasting
+
 # Install dependencies
 pip install -r requirements.txt
 
 # Run Jupyter notebooks
 jupyter notebook notebooks/
 ```
+
+---
+
+## 📁 Project Files
+
+You can access all project files, datasets, and notebooks here:  
+🔗 **[GitHub Repository](https://github.com/mariamsayedsalem/Manufacturing-Downtime-Analysis-Forecasting)**
+
 ---
 
 ## 📬 Contact
@@ -156,4 +281,9 @@ If you would like to collaborate, discuss data projects, or professional opportu
 
 ---
 
-⭐ If you found this project useful, feel free to star the repository.
+## ⭐ Support
+
+If you found this project useful, please consider giving it a star on GitHub!
+
+---
+**© 2026 Manufacturing Downtime Analysis Team. All Rights Reserved.**
