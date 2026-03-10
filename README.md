@@ -15,7 +15,7 @@
 - [Tools & Technologies](#tools--technologies)
 - [Dataset Description](#dataset-description)
 - [Project Workflow](#project-workflow)
-- [Project Timeline](#project-timeline-12-weeks)
+- [Project Timeline (12 Weeks)](#project-timeline-12-weeks)
 - [Project Insights](#project-insights)
 - [Team Members](#team-members)
 - [Roles & Responsibilities](#roles--responsibilities)
@@ -193,7 +193,7 @@ The analysis helps manufacturing managers to:
 
 | Member | Responsibilities |
 |--------|------------------|
-| **Malak Zein** | • Overall project supervision and progress tracking<br>• Task distribution and team coordination<br>• Communication with the instructor and presenting periodic reports<br>• Reviewing final deliverables and ensuring quality |
+| **Malak Zein** | • Overall project supervision and progress tracking<br>• Task distribution and team coordination<br>• Communication with the instructor and presenting periodic reports<br>• Participating in data cleaning and analysis<br>• Contributing to the interactive dashboard development |
 | **Maryam Sayed Salem** | • Data cleaning and preprocessing<br>• Building forecasting models (Machine Learning)<br>• Evaluating model performance |
 | **Sara Akram Adel** | • Exploratory Data Analysis (EDA)<br>• Creating charts and visualizations<br>• Detecting patterns in downtime periods |
 | **Maryam Yahia Mohamed** | • Defining success metrics (KPIs)<br>• Translating results into actionable recommendations<br>• Preparing reports and presentations |
